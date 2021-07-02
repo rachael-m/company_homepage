@@ -35,6 +35,7 @@ h1 {
     font-size: 2rem;
 }
 ul {
+    -webkit-padding-start: 0px;
     list-style-type: none;
     list-style-position: outside;
     padding: 0;
