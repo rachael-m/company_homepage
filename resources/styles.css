@@ -2,7 +2,6 @@
 * {
     text-align: center;
     background-color: wheat;
-    padding-left: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,7 +35,7 @@ h1 {
 }
 ul {
     list-style-type: none;
-    padding: 0;
+    list-style-position: outside;
 }
 
 
@@ -50,7 +49,6 @@ ul {
     height: 35rem;
     display: flex;
     justify-content: center;
-
     padding-top: 1.5rem;
 }
 
