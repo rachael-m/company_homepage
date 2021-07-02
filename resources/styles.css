@@ -2,6 +2,7 @@
 * {
     text-align: center;
     background-color: wheat;
+    padding-left: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,11 +36,9 @@ h1 {
 }
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
-.navbar {
-    padding-left: 0px;
-}
 
 /* Mission */
 
