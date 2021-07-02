@@ -1,0 +1,129 @@
+/* Universal Styles */
+* {
+    text-align: center;
+    background-color: wheat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ovo', serif;
+    color: #DB7D58;
+}
+
+p {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #8F472B;
+}
+
+a {
+    color: #323C8F;
+}
+
+figcaption {
+    width: 100%;
+    color: #8F472B;
+    font-family: 'Quattrocento Sans', sans-serif;
+}    
+
+img {
+    border-radius: 10% / 20%;
+}
+
+/* Header */
+h1 {
+    font-size: 2rem;
+}
+ul {
+    list-style-type: none;
+}
+
+/* Mission */
+
+.mission {
+    background-image: url(../resources/images/sunset.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+
+    padding-top: 1.5rem;
+}
+
+.mission .content {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Location */
+.location {
+    margin: 0 auto;
+    padding-top: 1rem;
+    border-bottom: thick double #8F472B;
+}
+
+.location-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.destination {
+    margin: 0 0 16px 0;
+}
+
+/* Interests */
+.interests {
+    margin: 0 auto;
+    padding-top: 1rem;
+    border-bottom: thick double #8F472B;
+}
+
+.interests-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.tourist {
+    margin: 0 0 16px 0;
+}
+
+
+/* Transportation */
+.transportation {
+    margin: 0 auto;
+    padding-top: 1rem;
+    border-bottom: thick double #8F472B;
+}
+
+.transportation-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.transport {
+    margin: 0 0 16px 0;
+}
+
+/* Team */
+.team {
+    margin: 0 auto;
+    padding-top: 1rem;
+    border-bottom: thick double #8F472B;
+}
+.team-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.teammember {
+    margin: 0 0 16px 0;
+}
+
+/* Footer */
