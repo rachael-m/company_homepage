@@ -33,8 +33,11 @@ img {
 h1 {
     font-size: 2rem;
 }
-.header ul {
+ul {
     list-style-type: none;
+}
+
+.navbar {
     padding-left: 0px;
 }
 
